@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mainbox">
+        <div class="box">
+            <form action="paginadeobrigado.html" method="get">
+                <fieldset>
+                    <legend>Feedback dos clientes</legend>
+                    <div class="Box">
+                        <div class="feedback">
+                            <p class="titulo">Adoraríamos saber mais sobre sua experiência como cliente. Sinta-se à vontade <br> para
+                                compartilhar
+                                sugestões, ideias e o que mais achar relevante. </p>
+                        </div> <br> <br>
+                        <div class="inputbox">
+                            <label>Nome <br>
+                                <input type="name" name="name" required class="inputs" placeholder="Insira o seu nome">
+
+                            </label> <br>
+                            <label>Sobrenome <br>
+                                <input type="text" name="secundname" required class="inputs"
+                                    placeholder="Insira o seu sobrenome">
+
+                            </label> <br>
+                            <label>E-mail <br>
+                                <input type="email" name="email" required class="inputs"
+                                    placeholder="Insira o seu e-mail">
+
+                            </label><br> <br>
+                            <p>Como você avaliaria nosso serviço?</p> <br>
+                            <label for="excelente">
+                                <input type="radio" name="services" id="excelente">
+                                Excelente
+                            </label> <br>
+                            <label for="verygood">
+                                <input type="radio" name="services" id="verygood">
+                                Muito bom
+                            </label><br>
+                            <label for="bom">
+                                <input type="radio" name="services" id="bom">
+                                Bom
+                            </label><br>
+                            <label for="medio">
+                                <input type="radio" name="services" id="medio">
+                                Médio
+                            </label><br>
+                            <label for="ruim">
+                                <input type="radio" name="services" id="ruim">
+                                Ruim
+                            </label> <br> <br>
+                            <label>Conte-nos como foi <br>
+                                <textarea placeholder="Insira sua experiência com a loja" name="experiencia"></textarea>
+                            </label> <br> <br>
+                            <div class="sendbutton">
+                                <input type="submit" id="enviar" name="dados" value="Enviar feedback">
+                            </div>
+                        </div>
+                </fieldset>
+            </form>
+        </div>
+
+
+
+
+    </div>
+
+</body>
+
+</html>
